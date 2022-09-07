@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(#fefefe, grey);
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
+header {
+  background-color: rgb(245, 115, 68);
+  color: #fff;
+  height: 3em;
+  margin-bottom: 1em;
+}
+header h1 {
+  display: inline-block;
+  font-size: 2em;
+  vertical-align: middle;
+}
+header h2 {
+  display: inline-block;
+  font-size: 2em;
+  vertical-align: middle;
+}
+header .container:before {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+.container {
+  margin: 0 auto;
+  height: 100%;
+  width: 60%;
+}
+section {
+  margin: 2em 0;
+  overflow: hidden;
+}
+section h2 {
+  border-bottom: 1px solid #ccc;
+  display: block;
+  font-size: 3em;
+  margin-bottom: 0.5em;
+  padding-bottom: 0.5em;
+}
+table {
+  background-color: white;
+  margin-bottom: 0.5em;
+  table-layout: fixed;
+  width: 100%;
+}
+td,
+th {
+  border: 1px solid #ccc;
+  margin: 0;
+  padding: 0.7em;
+  text-align: center;
+}
+th {
+  background-color: #eee;
+  font-weight: bold;
+}
+label {
+  color: #555;
+  display: block;
+  margin-bottom: 0.2em;
+}
+.campo {
+  border: 1px solid #ccc;
+  margin: 0;
+  padding: 0.7em;
+  padding-bottom: 1em;
+  width: 100%;
+  width: 100%;
+}
+.campo-medio {
+  display: inline-block;
+  padding-right: 0.5em;
+}
+.grupo {
+  display: inline-block;
+  padding: 10px 0px;
+  width: 32%;
+}
+button {
+  background-color: rgb(245, 115, 68);
+  border: 0;
+  border-color: #04324c;
+  border-bottom: 3px solid;
+  clear: both;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  font-size: 1.2em;
+  margin: 0;
+  margin: 10px 0px;
+  margin-top: -3px;
+  padding: 0.5em 2em;
+  width: 20%;
+}
+button:active {
+  border: 0;
+  margin-top: 0px;
+}
+button[disabled="disabled"],
+button:disabled {
+  background-color: gray;
+  border-color: darkgray;
+}
+.adicionar-paciente {
+  margin-top: 30px;
+}
+.campo-invalido {
+  border: 1px solid red;
+}
+.paciente-incorrecto {
+  background-color: orange;
+}
+#mensaje-error {
+  color: red;
+}
+.error {
+  border-color: red;
+}
+.libre {
+  border-color: black;
+}
+
+.desvanecido {
+  opacity: 0;
+  transition: 0.5s;
+}
+
+#filtrar-tabla {
+  width: 200px;
+  height: 35px;
+  margin-bottom: 10px;
+}
+.invisible {
+  display: none;
+}
